@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2021 at 06:30 PM
+-- Generation Time: Apr 13, 2021 at 12:52 PM
 -- Server version: 10.3.16-MariaDB
 -- PHP Version: 7.1.30
 
@@ -42,11 +42,13 @@ CREATE TABLE `customer` (
 INSERT INTO `customer` (`id`, `Name`, `email`, `balance`) VALUES
 (1, 'Abhishek', 'abhishekgowda16@gmail.com', 30000),
 (4, 'Ankit', 'Ankitshah15@gmail.com', 40000),
-(8, 'Rishabh', 'Rishabhkalai421@gmail.com', 40000),
+(8, 'Rishabh', 'Rishabhkalai421@gmail.com', 20000),
 (5, 'Ritu', 'Ritu234@gmail.com', 30000),
 (6, 'Ruhi', 'Ruhishah235@gmail.com', 40000),
 (7, 'Shruti', 'Shruthiv124@gmail.com', 35000),
-(2, 'Siddharth', 'siddharthsundar16@gmail.com', 25000),
+(2, 'Siddharth', 'siddharthsundar16@gmail.com', 45000),
+(10, 'Suraj', 'Surajsharma43@gmail.com', 30000),
+(9, 'Vishal', 'vishalkumar43@gmail.com', 40000),
 (3, 'Vishnu', 'vishnu13@gmail.com', 30000);
 
 -- --------------------------------------------------------
@@ -68,8 +70,9 @@ CREATE TABLE `transfer` (
 --
 
 INSERT INTO `transfer` (`transferdate`, `transfertime`, `sender`, `receiver`, `amount`) VALUES
-('2021-04-09', '04:09:20', 'Siddharth', 'Rishabh', 5000),
-('2021-04-09', '06:28:27', 'Siddharth', 'Siddharth', 5000);
+('2021-04-11', '02:19:30', 'Siddharth', 'Rishabh', 5000),
+('2021-04-11', '06:07:34', 'Rishabh', 'Siddharth', 20000),
+('2021-04-11', '06:25:43', 'Rishabh', 'Siddharth', 5000);
 
 --
 -- Indexes for dumped tables
